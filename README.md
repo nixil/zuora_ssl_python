@@ -3,15 +3,15 @@ ZuoraSSL Python Client
 
 This is a util module for encrypting message and decrypting signature when communication with Zuora.
 
-
-## How To Use
-
-- Dependency:
+## Dependency
 
 This module depends on **M2Crypto**, so you should install **M2Crypto** before using this module.
 **M2Crypto** can be installed via **pip** with `pip install M2Crypto`, or you can download it from: https://pypi.python.org/pypi/M2Crypto
 
-- Encrypt Message
+
+## How To Use
+
+### Encrypt Message
 
 ```python
 from ZuoraSSL import ZuoraSSL
@@ -22,7 +22,7 @@ encrypted = zuoraSSL.encrypt_message("Hello I'm Your Boss")
 print(encrypted)
 ```
 
-- Decrypt Signatrue
+### Decrypt Signatrue
 
 ```python
 from ZuoraSSL import ZuoraSSL
