@@ -27,7 +27,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 __since__ = "2014-12-15"
 __version__ = "1.0.0"
-__email = "xin.li@zuora.com"
+__email__ = "xin.li@zuora.com"
 
 from base64 import b64decode, b64encode
 from M2Crypto import RSA
