@@ -5,7 +5,7 @@ zuora_ssl_python
 
 1. Encrypt Message
 
-```
+```python
 from ZuoraSSL import ZuoraSSL
 
 zuoraSSL = ZuoraSSL(
@@ -16,7 +16,7 @@ print(encrypted)
 
 2. Decrypt Signatrue
 
-```
+```python
 from ZuoraSSL import ZuoraSSL
 
 zuoraSSL = ZuoraSSL(
