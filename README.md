@@ -35,6 +35,6 @@ The result should be like this:
 
 If you want a dictionary decrypted from the signature instead of a string with '#' connected,  you can use `decrypt_signature_to_dict` method, and you will get a dictionary like below:
 
-```
+```python
 {'pageId': '4028904a49eff36e0149f43e62cb000e', 'token_signature': '5ZUbvhzsquXKrnd0qkjdT6XkMXpTVYh2', 'timestamp_signature': '1418192059150', 'url_signature': '/hpm2samplecodejsp/callback.jsp', 'tenantId': '9'}
 ```
