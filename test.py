@@ -1,4 +1,4 @@
-__author__ = 'xinli'
+__author__ = 'xin.li@zuora.com'
 
 from ZuoraSSL import ZuoraSSL
 import unittest
